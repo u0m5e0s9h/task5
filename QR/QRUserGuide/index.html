@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="QR알리미" />
+  <title>QR알리미 사용하기</title>
+
+
+
+  <link rel="stylesheet" href="/QR/reset.css" />
+  <!-- web ================================================================================================================ -->
+  <link rel="stylesheet" media="only screen and (min-width:1024px)" href="/QR/css/web/footer.css" />
+  <link rel="stylesheet" href="/QR/QRUserGuide/css/user_guide.css" />
+  <!-- tablet ============================================================================================================= -->
+  <!-- mobile ============================================================================================================= -->
+  <link rel="stylesheet" media="only screen and (max-width:430px)" href="/QR/QRUserGuide/css/mobile/user_guide.css" />
+  <link rel="stylesheet" media="only screen and (max-width:430px)" href="/QR/css/mobile/footer.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:regular,700,800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="/QR/js/userguide_video.js"></script>
+</head>
+
+<!-- ================================================================================================================================ -->
+
+<!-- ================================================================================================================================ -->
+
+<body>
+  <header>
+    <div class="header-content">
+      <div class="header_logo">
+        <a href="/QR/index.html">
+          <img src="/QR/QRUserGuide/images/logo_header.png" alt="QR알리미 Logo" class="logo" />
+        </a>
+      </div>
+      <div class="header_navbar">
+        <nav>
+          <ul>
+            <li>
+              <a href="/QR/index.html" class="header_link">QR알리미란?</a>
+            </li>
+            <li>
+              <a href="/QR/QRUserGuide/index.html" class="header_link menu2">QR알리미 사용하기</a>
+            </li>
+            <li>
+              <a href="/QR/FAQ/index.html" class="header_link">고객센터</a>
+            </li>
+            <li><a href="/QR/B2B/index.html" class="header_link">B2B</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- second header -->
+
+  <div class="sub-header">
+    <ul class="sub-header-menu">
+      <li><a href="#" data-target="part1">앱 설치 & 차량번호 등록</a></li>
+      <li><a href="#" data-target="part2">쿠폰 등록방법</a></li>
+      <li><a href="#" data-target="part3">QR스티커 부착방법</a></li>
+    </ul>
+  </div>
+
+
+
+
+  <main class="main_container">
+    <div class="header_main">
+      <img src="/QR/QRUserGuide/images/icon_mobile.png" alt="icon_mobile" />
+      <h2 >QR알리미 사용하기</h2>
+    </div>
+
+    <!-- ================================================================================================================================ -->
+
+    <!-- ================================================================================================================================ -->
+
+
+    <div class="toggle-part" id="part1">
+
+
+      <div class="main_div">
+        <div class="main_div_box">
+          <div class="main_div_box_2">
+            <div class="main_div_container">
+              <div class="app_config_box">
+                <div class="app_video_check">
+                  <button id="videoButton_1" class="video_test video_btn">
+                    <p>영상으로 확인하기</p>
+                    <img src="/QR/QRUserGuide/images/icon_play.png" alt="app_video_check" />
+                  </button>
+                </div>
+                <!-- VIDEO #1 ================================================================================================================================ -->
+
+                <!-- VIDEO #1 APP INSTALL USER GUIDE ================================================================================================================================ -->
+
+                <div id="videoModal_1" class="video-modal">
+                  <div class="video-modal-content">
+                    <span id="closeModal_1" class="close-btn">&times;</span>
+                    <div id="videoNotAvailable1" class="video-not-available">
+                      The video has not been prepared yet.
+                    </div>
+                    <video controls id="video_1" width="100%">
+                      <source src="/QR/QRUserGuide/video/qrallimy_install_userguide.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                </div>
+
+                <!-- ================================================================================================================================ -->
+
+                <!-- ================================================================================================================================ -->
+              </div>
+            </div>
+            <!-- ================================================================================================================================ -->
+
+            <!-- ================================================================================================================================ -->
+            <div class="left_right_div_container">
+              <div class="left_div_box">
+                <div class="div_numbers">
+                  <div class="div_11">1</div>
+                  <div class="div_12"></div>
+                  <div class="div_11">2</div>
+                  <div class="div_12"></div>
+                  <div class="div_11">3</div>
+                  <div class="div_12"></div>
+                  <div class="div_11">4</div>
+                  <div class="div_12"></div>
+                  <div class="div_11">5</div>
+                </div>
+                <div class="guide_div_headers">
+                  <h2 class="app_config_text">앱 설치방법</h2>
+                  <div class="guide_div_text" id="step1" data-image="/QR/QRUserGuide/images/app_install.png">
+                    QR스캔후, QR알리미 앱 설치
+                  </div>
+                  <div class="guide_div_text" id="step2" data-image="/QR/QRUserGuide/images/ios_app.png">
+                    QR알리미 앱 실행
+                  </div>
+                  <div class="guide_div_text" id="step3" data-image="/QR/QRUserGuide/images/signin_method.png">
+                    원하는 계정으로 연동 로그인 진행
+                  </div>
+
+                    <div class="guide_div_text" id="step4" data-image="/QR/QRUserGuide/images/car_plate_registration.png">
+                    초기화면 차량번호 입력
+                    <div class="guide_div_text" id="step4_1"
+                      data-image="/QR/QRUserGuide/images/car_plate_registration4_1.png">
+                      4.1 부착용 QR스티커 있을경우
+                    </div>
+                    <div class="guide_div_text" id="step4_2"
+                      data-image="/QR/QRUserGuide/images/car_plate_registration4_2.png">
+                      4.2 부착용 QR스티커 없을경우
+                    </div>
+                  </div>
+
+
+                  <div class="guide_div_text" id="step5" data-image="/QR/QRUserGuide/images/qr_code_creation.png">
+                    QR코드 자동생성
+                  </div>
+                </div>
+              </div>
+              <div class="right_div_box">
+                <div class="image_container">
+                  <img id="stepImage" class="guide_phone_install" alt="guide_phone_install"
+                    src="/QR/QRUserGuide/images/app_install.png" />
+                </div>
+
+                <div id="qrDownloadCodes" class="dowload_apps">
+                  <a href="https://play.google.com/store/apps/details?id=com.jejecomms.qrparking&pli=1" target="_blank"
+                    rel="noopener">
+                    <img class="guide_phone_run" alt="download_QR_PlayMarket"
+                      src="/QR/QRUserGuide/images/download_QR_PlayMarket.png" />
+                  </a>
+                  <a href="https://apps.apple.com/kr/app/qralimy/id1628992038" target="_blank" rel="noopener">
+                    <img class="guide_phone_run" alt="download_QR_AppStore"
+                      src="/QR/QRUserGuide/images/download_QR_AppStore.png" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- COUPON USER GUIDE CONTAINER ================================================================================================================================ -->
+
+    <div class="toggle-part" id="part2">
+
+
+      <div class="coupon_user_guide">
+        <div class="coupon_container">
+          <div class="coupon_header">
+            <div class="video_test_div">
+              <button id="videoButton_2" class="video_test video_2_btn" title="Button">
+                <p>영상으로 확인하기</p>
+                <img src="/QR/QRUserGuide/images/icon_play.png" alt="check_by_video" />
+              </button>
+            </div>
+
+            <!-- VIDEO #2COUPON USER GUIDE ================================================================================================================================ -->
+
+            <!-- VIDEO #2 COUPON USER GUIDE ================================================================================================================================ -->
+
+            <div id="videoModal_2" class="video-modal">
+              <div class="video-modal-content">
+                <span id="closeModal_2" class="close-btn">&times;</span>
+                <div id="videoNotAvailable_2" class="video-not-available">
+                  The video has not been prepared yet.
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="coupon_header_text_div"></div>
+          </div>
+          <div class="coupon_menu_botton">
+            <div class="coupon_left_container left2">
+              <img id="levelImage" src="images/menu_button.png" alt="menu_button" />
+            </div>
+            <div class="coupon_right_container">
+              <div class="div_numbers second_numbers">
+                <div class="div_11">1</div>
+                <div class="div_12"></div>
+                <div class="div_11">2</div>
+                <div class="div_12"></div>
+                <div class="div_11">3</div>
+                <div class="div_12"></div>
+                <div class="div_11">4</div>
+              </div>
+              <div class="guide_headers">
+                <h2 class="app_config_text">쿠폰 사용방법</h2>
+                <div class="div_23" id="level1" data-image="images/menu_button.png">
+                  “메뉴" 버튼 클릭
+                </div>
+                <div class="div_23" id="level2" data-image="images/coupon_register_button_click.png">
+                  “쿠폰등록" 버튼 클릭
+                </div>
+                <div class="div_23" id="level3" data-image="images/coupon_number_fill.png">
+                  쿠폰번호 입력
+                </div>
+                <div class="div_23" id="level4" data-image="images/expiry_date_check.png">
+                  “잔여일수" 충전 확인
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ================================================================================================================================ -->
+
+    <!-- ================================================================================================================================ -->
+
+    <div class="toggle-part" id="part3">
+
+
+      <div class="qr_sticker">
+        <div class="qr_sticker_container">
+          <div class="coupon_header last_header">
+            <div class="video_test_div last_btn">
+              <button id="videoButton_3" class="video_test video_btn">
+                <p>영상으로 확인하기</p>
+                <img src="images/icon_play.png" alt="check_by_video" />
+              </button>
+            </div>
+
+            <!-- VIDEO #3 ================================================================================================================================ -->
+
+            <!-- STICKER GUIDE VIDEO ================================================================================================================================ -->
+
+            <div id="videoModal_3" class="video-modal">
+              <div class="video-modal-content">
+                <span id="closeModal_3" class="close-btn">&times;</span>
+                <div id="videoNotAvailable_3" class="video-not-available">
+                  The video has not been prepared yet.
+                </div>
+                <video controls id="video_3" width="100%">
+                  <source src="/QR/QRUserGuide/video/sticker_userguide.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+
+            <!-- ================================================================================================================================ -->
+
+            <!-- ================================================================================================================================ -->
+          </div>
+          <div class="sticker_menu_botton sticker">
+            <div class="qr_sticker_left_container">
+              <h2 class="app_config_text sticker3">QR스티커 부착방법</h2>
+              <div class="qr_sticker_left_box left3">
+                <div class="qr_sticker_numbers">
+                  <div class="div_11">1</div>
+                  <div class="div_12"></div>
+                  <div class="div_11">2</div>
+                  <div class="div_12"></div>
+                  <div class="div_11">3</div>
+                  <div class="div_12"></div>
+                  <div class="div_11">4</div>
+                </div>
+
+
+                <div class="qr_sticker_steps sticker_steps">
+                  <div class="qr_sticker_images" id="grade1"
+                    data-images='["/QR/QRUserGuide/images/qr_scan_1a.png", "/QR/QRUserGuide/images/qr_scan_1b.png", "/QR/QRUserGuide/images/qr_scan_1c.png"]'>
+                    QR인쇄물과 투명스티커를 준비
+                  </div>
+                  <div class="qr_sticker_images" id="grade2"
+                    data-images='["/QR/QRUserGuide/images/qr_scan_2b.png","/QR/QRUserGuide/images/qr_scan_2a.png"]'>
+                    투명스티커를 떼고, 접착면이 위로 향하게 배치
+                  </div>
+                  <div class="qr_sticker_images" id="grade3"
+                    data-images='["/QR/QRUserGuide/images/qr_scan_3a.png","/QR/QRUserGuide/images/qr_scan_2a.png"]'>
+                    QR인쇄물 배치 (QR코드, 차량번호가 보이게)
+                  </div>
+                  <div class="qr_sticker_images" id="grade4"
+                    data-images='["/QR/QRUserGuide/images/qr_scan_4.png","/QR/QRUserGuide/images/qr_scan_4b.png"]'>
+                    차량안쪽에서 앞유리에 부착
+                  </div>
+                </div>
+
+
+
+              </div>
+            </div>
+
+
+            <section aria-label="Product Image Section">
+              <h2 class="visually-hidden">Product Image</h2>
+              <div id="gradeImageContainer" class="product-images special-layout">
+
+              </div>
+            </section>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ================================================================================================================================ -->
+
+    <!-- ================================================================================================================================ -->
+  </main>
+
+  <!-- ================================================================================================================================ -->
+
+  <!-- ================================================================================================================================ -->
+
+  <footer>
+    <section>
+      <div class="footerTop">
+        <dl class="utilBtm">
+          <dt class="hidden">하단 유틸메뉴</dt>
+          <dd class="txt">
+            <a href="http://www.jejecomms.com/">회사소개</a>
+          </dd>
+          <dd class="txt">
+            <a href="https://shiftapp.net/QR/term/qr_term-1.html">이용약관</a>
+          </dd>
+          <dd class="txt">
+            <a href="https://shiftapp.net/QR/term/qr_term-2.html">개인정보처리방침</a>
+          </dd>
+          <!-- <dd class="txt"><a href="void(0);" onclick="alert('서비스 준비중입니다');return false;">운영정책</a></dd> -->
+        </dl>
+      </div>
+      <div class="footerBottom">
+        <p>
+          (주)제제컴즈<span>대표자 : 김준강</span><span>사업자등록번호 : 641-88-00828</span>
+        </p>
+        <p>통신판매업신고 : 제2021-성남수정-1335호</p>
+        <p>
+          13449 경기 성남시 수정구 달래내로 46, 성남글로벌융합센터 A동 405호.
+        </p>
+        <div class="contect">
+          <p><span>T.</span>070-4252-5571</p>
+          <p><span>E.</span>jejecomms@gmail.com</p>
+          <p><span>F.</span>0504-486-5575</p>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <!-- ================================================================================================================================ -->
+
+  <!-- ================================================================================================================================ -->
+
+  <script src="/QR/js/userguide.js"></script>
+
+
+  <!-- ================================================================================================================================ -->
+
+  <!-- ================================================================================================================================ -->
+</body>
+
+</html>
