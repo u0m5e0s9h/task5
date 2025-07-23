@@ -317,6 +317,7 @@ html {
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 20px;
+  text-align: center;
   color: #333;
   position: relative;
   z-index: 3;
@@ -327,13 +328,13 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
   padding: 8px 12px;
   font-size: 14px;
   color: #333;
   width: 100%;
-  max-width: 850px;
+  max-width: auto;
   background: rgba(255, 255, 255, 0.8);
   border-radius: 8px;
   position: relative;
